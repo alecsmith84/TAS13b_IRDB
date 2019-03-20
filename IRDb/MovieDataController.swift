@@ -21,8 +21,6 @@ class MovieDataController: NSObject {
         
         let dataTask = URLSession.shared.dataTask(with: jsonUrl) { (data, response, error) in
             guard let _ = data, error == nil else {
-                // errors happened
-                success = false
                 return
             }
 
