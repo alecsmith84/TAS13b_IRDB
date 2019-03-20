@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D40632A222427359004FBEB7 /* MovieDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40632A122427359004FBEB7 /* MovieDataModel.swift */; };
+		D40632A4224278E3004FBEB7 /* MovieDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40632A3224278E3004FBEB7 /* MovieDataController.swift */; };
 		D44B30CF223FCFB600027623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44B30CE223FCFB600027623 /* AppDelegate.swift */; };
 		D44B30D1223FCFB600027623 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44B30D0223FCFB600027623 /* MasterViewController.swift */; };
 		D44B30D3223FCFB600027623 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44B30D2223FCFB600027623 /* DetailViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		D40632A122427359004FBEB7 /* MovieDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataModel.swift; sourceTree = "<group>"; };
+		D40632A3224278E3004FBEB7 /* MovieDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataController.swift; sourceTree = "<group>"; };
 		D44B30CB223FCFB600027623 /* IRDb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRDb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44B30CE223FCFB600027623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44B30D0223FCFB600027623 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D44B30D9223FCFBB00027623 /* LaunchScreen.storyboard */,
 				D44B30DC223FCFBB00027623 /* Info.plist */,
 				D40632A122427359004FBEB7 /* MovieDataModel.swift */,
+				D40632A3224278E3004FBEB7 /* MovieDataController.swift */,
 			);
 			path = IRDb;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				D44B30D3223FCFB600027623 /* DetailViewController.swift in Sources */,
 				D44B30D1223FCFB600027623 /* MasterViewController.swift in Sources */,
 				D40632A222427359004FBEB7 /* MovieDataModel.swift in Sources */,
+				D40632A4224278E3004FBEB7 /* MovieDataController.swift in Sources */,
 				D44B30CF223FCFB600027623 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
