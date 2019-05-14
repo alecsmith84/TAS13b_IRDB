@@ -11,7 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
 
     //@IBOutlet weak var title: UILabel!
-    @IBOutlet weak var detailDescriptionLabel: UITextView!
+    @IBOutlet weak var detailDescriptionLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var shortDesc: UILabel!
     @IBOutlet weak var Year: UILabel!
@@ -19,10 +19,22 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var network: UILabel!
     @IBOutlet weak var episode: UILabel!
     @IBOutlet weak var Image: UIImageView!
+    @IBOutlet weak var NavBarTitle: UINavigationItem!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        configureView()
+    }
+
+    
     
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem {
+            if let label = NavBarTitle {
+                label.title = detail.name
+            }
             if let label = detailDescriptionLabel {
                 label.text = detail.summary
             }
@@ -63,11 +75,6 @@ class DetailViewController: UIViewController {
         }
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        configureView()
-    }
 
     var detailItem: Entry? {
         didSet {
